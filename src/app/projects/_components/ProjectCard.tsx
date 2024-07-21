@@ -6,6 +6,33 @@ import { FiGithub, FiGlobe, FiCalendar } from "react-icons/fi";
 import { ProjectShowcaseDrawer } from "./ProjectShowcaseDrawer";
 import { ProjectDrawerContent } from "./ProjectDrawerContent";
 
+interface CardProps {
+  src: string;
+  date: string;
+  project: string;
+  videoUrl: string;
+  problems: string[];
+  features: {
+    title: string;
+    description: string;
+  }[];
+  githubUrl: string;
+  websiteUrl: string;
+  backendStacks: {
+    path: string;
+    name: string;
+  }[];
+  frontendStacks: {
+    path: string;
+    name: string;
+  }[];
+  shortDescription: string;
+  longDescription: string;
+  clientLibraries: {
+    path: string;
+    name: string;
+  }[];
+}
 export const Card = ({
   src,
   date,
@@ -20,7 +47,7 @@ export const Card = ({
   shortDescription,
   longDescription,
   clientLibraries,
-}) => {
+}: CardProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,10 +65,10 @@ export const Card = ({
           {shortDescription}
         </h2>
         <aside className="absolute flex items-center gap-4 right-3 top-4 z-10 text-2xl text-zinc-400 transition-colors group-hover:text-zinc-50">
-          <Link to={githubUrl} target="_blank">
+          <Link href={githubUrl} target="_blank">
             <FiGithub className="text-base hover:text-emerald-300 transition-all" />
           </Link>
-          <Link to={websiteUrl} target="_blank">
+          <Link href={websiteUrl} target="_blank">
             <FiGlobe className="text-base hover:text-emerald-300 transition-all" />
           </Link>
         </aside>

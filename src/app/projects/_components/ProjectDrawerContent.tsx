@@ -2,6 +2,30 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { FiGithub, FiGlobe } from "react-icons/fi";
 
+interface ProjectDrawerContentProps {
+  project: string;
+  problems: string[];
+  features: {
+    title: string;
+    description: string;
+  }[];
+  videoUrl: string;
+  githubUrl: string;
+  websiteUrl: string;
+  backendStacks: {
+    path: string;
+    name: string;
+  }[];
+  frontendStacks: {
+    path: string;
+    name: string;
+  }[];
+  clientLibraries: {
+    path: string;
+    name: string;
+  }[];
+  longDescription: string;
+}
 export const ProjectDrawerContent = ({
   project,
   problems,
@@ -13,7 +37,7 @@ export const ProjectDrawerContent = ({
   frontendStacks,
   clientLibraries,
   longDescription,
-}) => {
+} : ProjectDrawerContentProps) => {
   return (
     <motion.article
       initial="initial"
@@ -37,10 +61,10 @@ export const ProjectDrawerContent = ({
         <h2 className="text-4xl font-bold text-zinc-50">{project}</h2>
         <div className="w-full h-[1px] bg-zinc-600" />
         <nav className="flex items-center gap-4">
-          <Link to={githubUrl} target="_blank">
+          <Link href={githubUrl} target="_blank">
             <FiGithub className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
           </Link>
-          <Link to={websiteUrl} target="_blank">
+          <Link href={websiteUrl} target="_blank">
             <FiGlobe className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
           </Link>
         </nav>

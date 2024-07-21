@@ -1,6 +1,17 @@
 import { motion, AnimatePresence } from "framer-motion";
 
-export const AwardModal = ({ path, skills, isOpen, setIsOpen }) => {
+interface AwardModalProps {
+  path: string;
+  skills: string[];
+  isOpen: boolean;
+  setIsOpen: (isOpen: boolean) => void;
+}
+export const AwardModal = ({
+  path,
+  skills,
+  isOpen,
+  setIsOpen
+}: AwardModalProps) => {
   const isPdf = path.includes(".pdf");
 
   return (

@@ -62,7 +62,7 @@ export const SocialsBlock = () => {
         <a
           href="/awards"
           className="grid h-full place-content-center text-3xl text-white"
-        >   
+        >
           <FiAward />
         </a>
       </Block>

@@ -1,3 +1,5 @@
+"use client";
+
 import {
   motion,
   useAnimate,
@@ -6,7 +8,17 @@ import {
 } from "framer-motion";
 import useMeasure from "react-use-measure";
 
-export const ProjectShowcaseDrawer = ({ isOpen, setIsOpen, children }) => {
+interface ProjectShowcaseDrawerProps {
+  isOpen: boolean;
+  children: React.ReactNode;
+  setIsOpen: (isOpen: boolean) => void;
+}
+
+export const ProjectShowcaseDrawer = ({ 
+  isOpen, 
+  setIsOpen, 
+  children 
+} : ProjectShowcaseDrawerProps) => {
   const [scope, animate] = useAnimate();
   const [drawerRef, { height }] = useMeasure();
   const y = useMotionValue(0);

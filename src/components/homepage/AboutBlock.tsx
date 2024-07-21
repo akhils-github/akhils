@@ -1,5 +1,6 @@
 import { Block } from "./Block";
 
+
 export const AboutBlock = () => {
   return (
     <Block className="col-span-12 text-3xl leading-snug">

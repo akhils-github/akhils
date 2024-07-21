@@ -1,6 +1,6 @@
 import { Reveal } from "../../../components/Reveal";
 
-export const SectionHeader = ({ title, dir = "r" }) => {
+export const SectionHeader = ({ title, dir = "r" }: { title: string, dir?: "r" | "l" }) => {
   return (
     <header
       className="flex items-center gap-8 mb-12"

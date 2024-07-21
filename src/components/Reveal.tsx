@@ -1,13 +1,18 @@
+"use client";
+
 import { useEffect, useRef } from "react";
-import { 
+import {
     motion,
     useInView,
-    useAnimation,  
+    useAnimation,
 } from "framer-motion";
 
 export const Reveal = ({
     children,
     width = "w-fit"
+}: {
+    children: React.ReactNode,
+    width?: string
 }) => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
@@ -27,7 +32,7 @@ export const Reveal = ({
             ref={ref}
             className={`relative overflow-hideen ${width}`}
         >
-            <motion.div 
+            <motion.div
                 variants={{
                     hidden: { opacity: 0, y: 75 },
                     visible: { opacity: 1, y: 0 },

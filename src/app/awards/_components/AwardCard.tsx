@@ -1,15 +1,22 @@
 import { useState } from "react";
 import { AwardModal } from "./AwardModal";
-import { Corners } from "../Projects/Corners";
+import { Corners } from "@/components/Corners";
 import { FiArrowUpRight, FiCalendar } from "react-icons/fi";
 
+interface CardProps {
+  src: string;
+  date: string;
+  path: string;
+  award: string;
+  skills: string[];
+}
 export const Card = ({
   src,
   date,
   path,
   award,
   skills
-}) => {
+} : CardProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
