@@ -1,3 +1,6 @@
+"use client";
+
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface AwardModalProps {
@@ -40,9 +43,11 @@ export const AwardModal = ({
                   className="object-cover h-full w-full"
                 />
               ) : (
-                <img
+                <Image
                   src={path}
                   alt="award"
+                  width="500"
+                  height="500"
                   className="object-contain h-full w-full"
                 />
               )}

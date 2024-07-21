@@ -1,10 +1,13 @@
+import Image from "next/image";
 import { Block } from "./Block";
 import { twMerge } from "tailwind-merge";
 import { FiArrowRight } from "react-icons/fi";
 export const HeaderBlock = () => {
   return (
     <Block className="col-span-12 row-span-2 md:col-span-6">
-      <img
+      <Image
+        width="50"
+        height="50"
         src="/headshot.jpg"
         alt="Christopher Alonoz Profile Picture"
         className="mb-4 size-14 rounded-full"

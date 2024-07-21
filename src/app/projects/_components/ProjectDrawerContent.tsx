@@ -1,5 +1,8 @@
-import { motion } from "framer-motion";
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { FiGithub, FiGlobe } from "react-icons/fi";
 
 interface ProjectDrawerContentProps {
@@ -109,7 +112,13 @@ export const ProjectDrawerContent = ({
           </h4>
           <ul className="flex gap-4 items-center">
             {frontendStacks.map((f, i) => (
-              <img key={i} src={f.path} alt={f.name} className="h-8 w-8" />
+              <Image 
+                key={i} 
+                src={f.path} 
+                alt={f.name} 
+                height="25"
+                width="25"
+              />
             ))}
           </ul>
         </nav>
@@ -120,7 +129,13 @@ export const ProjectDrawerContent = ({
           </h4>
           <ul className="flex gap-4 items-center">
             {backendStacks.map((b, i) => (
-              <img key={i} src={b.path} alt={b.name} className="h-8 w-8 " />
+              <Image 
+                key={i} 
+                src={b.path} 
+                alt={b.name} 
+                height="25"
+                width="25" 
+              />
             ))}
           </ul>
         </nav>
@@ -132,7 +147,13 @@ export const ProjectDrawerContent = ({
             </h4>
             <ul className="flex gap-4 items-center">
               {clientLibraries.map((c, i) => (
-                <img key={i} src={c.path} alt={c.name} className="h-8 w-8" />
+                <Image 
+                  key={i} 
+                  src={c.path} 
+                  alt={c.name} 
+                  height="25"
+                  width="25" 
+                />
               ))}
             </ul>
           </nav>

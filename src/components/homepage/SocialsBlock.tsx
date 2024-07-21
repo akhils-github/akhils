@@ -2,7 +2,6 @@ import { Block } from "./Block";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { FiGrid, FiAward } from "react-icons/fi";
 
-
 export const SocialsBlock = () => {
   return (
     <>

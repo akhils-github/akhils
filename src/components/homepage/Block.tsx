@@ -1,9 +1,12 @@
-import { motion, MotionProps } from "framer-motion";
+"use client";
+
 import { twMerge } from "tailwind-merge";
+import { motion, MotionProps } from "framer-motion";
 
 type BlockProps = {
   className?: string;
 } & MotionProps;
+
 export const Block = ({ className, ...rest } : BlockProps) => {
   return (
     <motion.div

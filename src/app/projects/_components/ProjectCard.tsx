@@ -1,12 +1,17 @@
-import { useState } from "react";
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+
+
+import { FiGithub, FiGlobe, FiCalendar } from "react-icons/fi";
 
 import { Corners } from "../../../components/Corners";
-import { FiGithub, FiGlobe, FiCalendar } from "react-icons/fi";
-import { ProjectShowcaseDrawer } from "./ProjectShowcaseDrawer";
 import { ProjectDrawerContent } from "./ProjectDrawerContent";
+import { ProjectShowcaseDrawer } from "./ProjectShowcaseDrawer";
 
-interface CardProps {
+interface ProjectCardProps {
   src: string;
   date: string;
   project: string;
@@ -33,7 +38,7 @@ interface CardProps {
     name: string;
   }[];
 }
-export const Card = ({
+export const ProjectCard = ({
   src,
   date,
   project,
@@ -47,7 +52,7 @@ export const Card = ({
   shortDescription,
   longDescription,
   clientLibraries,
-}: CardProps) => {
+}: ProjectCardProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -72,10 +77,12 @@ export const Card = ({
             <FiGlobe className="text-base hover:text-emerald-300 transition-all" />
           </Link>
         </aside>
-        <img
-          className="absolute h-full bg-cover bg-center bottom-0 left-0 right-0 top-0 opacity-0 blur-sm grayscale transition-all group-hover:opacity-10 group-active:scale-105 group-active:opacity-30 group-active:blur-0 group-active:grayscale-0"
+        <Image
           src={src}
+          width="200"
+          height="200"
           alt="Background Image"
+          className="absolute h-full w-full bg-cover bg-center bottom-0 left-0 right-0 top-0 opacity-0 blur-sm grayscale transition-all group-hover:opacity-10 group-active:scale-105 group-active:opacity-30 group-active:blur-0 group-active:grayscale-0"
         />
         <Corners />
       </aside>

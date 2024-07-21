@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion"
 import { HeaderBlock } from "./HeaderBlock"
 import { SocialsBlock } from "./SocialsBlock"
