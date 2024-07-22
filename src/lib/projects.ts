@@ -27,55 +27,55 @@ export const projects = [
         ],
         frontendStacks: [
             {
-                name: "NextJS Logo",
+                name: "NextJS",
                 path: "/tech/nextjs.svg"
             },
             {
-                name: "Typescript Logo",
+                name: "Typescript",
                 path: "/tech/typescript.svg"
             },
             {
-                name: "Javascript Logo",
+                name: "Javascript",
                 path: "/tech/javascript.svg"
             },
             {
-                name: "TailwindCSS Logo",
+                name: "TailwindCSS",
                 path: "/tech/tailwindcss.svg"
             },
             {
-                name: "Framer Motion Logo",
+                name: "Framer Motion",
                 path: "/tech/framer-motion.svg"
             }
         ],
         backendStacks: [
             {
-                name: "OpenAI Logo",
+                name: "OpenAI",
                 path: "/tech/openai.svg"
             },
             {
-                name: "Convex Logo",
+                name: "Convex",
                 path: "/tech/convex.svg"
             },
             {
-                name: "Zod Logo",
+                name: "Zod",
                 path: "/tech/zod.svg"
             },
         ],
         clientLibraries: [
             {
-                name: "Clerk Logo",
+                name: "Clerk",
                 path: "/tech/clerk.svg"
             },
             {
-                name: "React-PDF Logo",
+                name: "React-PDF",
                 path: "/tech/react-pdf.png"
             },
             {
-                name: "Zustand Logo",
+                name: "Zustand",
                 path: "/tech/zustand.png"
             },
             {
-                name: "Git Logo",
+                name: "Git",
                 path: "/tech/git.svg"
             },
         ]
@@ -111,48 +111,48 @@ export const projects = [
         ],
         frontendStacks: [
             {
-                name: "Vite Logo",
+                name: "Vite",
                 path: "/tech/vite.svg"
             },
             {
-                name: "Javascript Logo",
+                name: "Javascript",
                 path: "/tech/javascript.svg"
             },
             {
-                name: "SASS Logo",
+                name: "SASS",
                 path: "/tech/sass.svg"
             },
             {
-                name: "Axios Logo",
+                name: "Axios",
                 path: "/tech/axios.svg"
             }
         ],
         backendStacks: [
             {
-                name: "Express Logo",
+                name: "Express",
                 path: "/tech/express.svg"
             },
             {
-                name: "SQL Logo",
+                name: "SQL",
                 path: "/tech/sql.svg"
             },
             {
-                name: "Knex Logo",
+                name: "Knex",
                 path: "/tech/knex.svg"
             },
             {
-                name: "Node Logo",
+                name: "Node",
                 path: "/tech/node.svg"
             },
             
         ],
         clientLibraries: [
             {
-                name: "Git Logo",
+                name: "Git",
                 path: "/tech/git.svg"
             },
             {
-                name: "Jira Logo",
+                name: "Jira",
                 path: "/tech/jira.svg"
             }
         ]
@@ -193,55 +193,55 @@ export const projects = [
         ],
         frontendStacks: [
             {
-                name: "NextJS Logo",
+                name: "NextJS",
                 path: "/tech/nextjs.svg"
             },
             {
-                name: "Typescript Logo",
+                name: "Typescript",
                 path: "/tech/typescript.svg"
             },
             {
-                name: "Javascript Logo",
+                name: "Javascript",
                 path: "/tech/javascript.svg"
             },
             {
-                name: "TailwindCSS Logo",
+                name: "TailwindCSS",
                 path: "/tech/tailwindcss.svg"
             },
             {
-                name: "Framer Motion Logo",
+                name: "Framer Motion",
                 path: "/tech/framer-motion.svg"
             }
         ],
         backendStacks: [
             {
-                name: "OpenAI Logo",
+                name: "OpenAI",
                 path: "/tech/openai.svg"
             },
             {
-                name: "Convex Logo",
+                name: "Convex",
                 path: "/tech/convex.svg"
             },
             {
-                name: "Zod Logo",
+                name: "Zod",
                 path: "/tech/zod.svg"
             },
             {
-                name: "LangChain Logo",
+                name: "LangChain",
                 path: "/tech/langchain.svg"
             }
         ],
         clientLibraries: [
             {
-                name: "Clerk Logo",
+                name: "Clerk",
                 path: "/tech/clerk.svg"
             },
             {
-                name: "React-PDF Logo",
+                name: "React-PDF",
                 path: "/tech/react-pdf.png"
             },
             {
-                name: "Git Logo",
+                name: "Git",
                 path: "/tech/git.svg"
             },
         ]
@@ -279,51 +279,51 @@ export const projects = [
         ],
         frontendStacks: [
             {
-                name: "NextJS Logo",
+                name: "NextJS",
                 path: "/tech/nextjs.svg"
             },
             {
-                name: "Typescript Logo",
+                name: "Typescript",
                 path: "/tech/typescript.svg"
             },
             {
-                name: "Javascript Logo",
+                name: "Javascript",
                 path: "/tech/javascript.svg"
             },
             {
-                name: "TailwindCSS Logo",
+                name: "TailwindCSS",
                 path: "/tech/tailwindcss.svg"
             },
             {
-                name: "Framer Motion Logo",
+                name: "Framer Motion",
                 path: "/tech/framer-motion.svg"
             },
             {
-                name: "Axios Logo",
+                name: "Axios",
                 path: "/tech/axios.svg"
             }
         ],
         backendStacks: [
             {
-                name: "PostgreSQL Logo",
+                name: "PostgreSQL",
                 path: "/tech/postgresql.svg"
             },
             {
-                name: "Zod Logo",
+                name: "Zod",
                 path: "/tech/zod.svg"
             },
             {
-                name: "Node logo",
+                name: "Node",
                 path: "/tech/node.svg"
             }
         ],
         clientLibraries: [
             {
-                name: "Clerk Logo",
+                name: "Clerk",
                 path: "/tech/clerk.svg"
             },
             {
-                name: "Git Logo",
+                name: "Git",
                 path: "/tech/git.svg"
             },
         ]
@@ -358,47 +358,47 @@ export const projects = [
         ],
         frontendStacks: [
             {
-                name: "NextJS Logo",
+                name: "NextJS",
                 path: "/tech/nextjs.svg"
             },
             {
-                name: "Typescript Logo",
+                name: "Typescript",
                 path: "/tech/typescript.svg"
             },
             {
-                name: "Javascript Logo",
+                name: "Javascript",
                 path: "/tech/javascript.svg"
             },
             {
-                name: "TailwindCSS Logo",
+                name: "TailwindCSS",
                 path: "/tech/tailwindcss.svg"
             },
             {
-                name: "Framer Motion Logo",
+                name: "Framer Motion",
                 path: "/tech/framer-motion.svg"
             }
         ],
         backendStacks: [
             {
-                name: "OpenAI Logo",
+                name: "OpenAI",
                 path: "/tech/openai.svg"
             },
             {
-                name: "Convex Logo",
+                name: "Convex",
                 path: "/tech/convex.svg"
             },
             {
-                name: "Zod Logo",
+                name: "Zod",
                 path: "/tech/zod.svg"
             },
         ],
         clientLibraries: [
             {
-                name: "Clerk Logo",
+                name: "Clerk",
                 path: "/tech/clerk.svg"
             },
             {
-                name: "Git Logo",
+                name: "Git",
                 path: "/tech/git.svg"
             },
         ]

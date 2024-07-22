@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FiGithub, FiGlobe } from "react-icons/fi";
+import { AnimatedTooltip } from "@/components/AnimatedTooltip";
 
 interface ProjectDrawerContentProps {
   project: string;
@@ -111,15 +112,7 @@ export const ProjectDrawerContent = ({
             Front-End Stack:{" "}
           </h4>
           <ul className="flex gap-4 items-center">
-            {frontendStacks.map((f, i) => (
-              <Image 
-                key={i} 
-                src={f.path} 
-                alt={f.name} 
-                height="25"
-                width="25"
-              />
-            ))}
+            <AnimatedTooltip stacks={frontendStacks} />
           </ul>
         </nav>
 
@@ -128,15 +121,7 @@ export const ProjectDrawerContent = ({
             Back-End Stack:{" "}
           </h4>
           <ul className="flex gap-4 items-center">
-            {backendStacks.map((b, i) => (
-              <Image 
-                key={i} 
-                src={b.path} 
-                alt={b.name} 
-                height="25"
-                width="25" 
-              />
-            ))}
+            <AnimatedTooltip stacks={backendStacks} />
           </ul>
         </nav>
 
@@ -146,15 +131,7 @@ export const ProjectDrawerContent = ({
               Other Libraries:{" "}
             </h4>
             <ul className="flex gap-4 items-center">
-              {clientLibraries.map((c, i) => (
-                <Image 
-                  key={i} 
-                  src={c.path} 
-                  alt={c.name} 
-                  height="25"
-                  width="25" 
-                />
-              ))}
+              <AnimatedTooltip stacks={clientLibraries} />
             </ul>
           </nav>
         )}
