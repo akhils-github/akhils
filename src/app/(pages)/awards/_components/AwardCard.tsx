@@ -39,8 +39,10 @@ export const AwardCard = ({
         </aside>
         <Image
           src={src}
-          width="200"
-          height="200"
+          width={200}
+          height={200}
+          quality={100}
+          priority={true}
           alt="Background Image"
           className="absolute h-full w-full bg-cover bg-center bottom-0 left-0 right-0 top-0 opacity-0 blur-sm grayscale transition-all group-hover:opacity-10 group-active:scale-105 group-active:opacity-30 group-active:blur-0 group-active:grayscale-0"
         />

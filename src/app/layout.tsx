@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-import Image from "next/image";
-import { Footer } from "@/components/Footer";
-const inter = Inter({ subsets: ["latin"] });
+
+import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
+
+
+const font = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
   title: "Chris Alonzo",
@@ -18,20 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        <main className="min-h-screen flex flex-col items-center justify-center bg-zinc-900 px-4 py-12 text-zinc-50">
-          <Link href="/">
-            <Image
-              width="20"
-              height="20"
-              src="/logo.svg"
-              className="h-14 w-14 text-center mb-4"
-              alt="Christopher Alonzo Initialials Logo"
-            />
-          </Link>
-          {children}
-          <Footer />
-        </main>
+      <body className={`${font.className} antialiased`}>
+        {children}
       </body>
     </html>
   );

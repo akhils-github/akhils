@@ -6,8 +6,10 @@ export const HeaderBlock = () => {
   return (
     <Block className="col-span-12 row-span-2 md:col-span-6">
       <Image
-        width="50"
-        height="50"
+        width={50}
+        height={50}
+        quality={100}
+        priority={true}
         src="/headshot.jpg"
         alt="Christopher Alonoz Profile Picture"
         className="mb-4 size-14 rounded-full"

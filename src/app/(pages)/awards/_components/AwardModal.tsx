@@ -46,8 +46,10 @@ export const AwardModal = ({
                 <Image
                   src={path}
                   alt="award"
-                  width="500"
-                  height="500"
+                  width={500}
+                  height={500}
+                  quality={100}
+                  priority={true}
                   className="object-contain h-full w-full"
                 />
               )}

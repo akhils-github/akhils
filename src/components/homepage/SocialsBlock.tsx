@@ -1,6 +1,7 @@
 import { Block } from "./Block";
 import { SiGithub, SiLinkedin } from "react-icons/si";
-import { FiGrid, FiAward } from "react-icons/fi";
+import { FiGrid } from "react-icons/fi";
+import { FaGraduationCap } from "react-icons/fa6";
 
 export const SocialsBlock = () => {
   return (
@@ -62,7 +63,7 @@ export const SocialsBlock = () => {
           href="/awards"
           className="grid h-full place-content-center text-3xl text-white"
         >
-          <FiAward />
+          <FaGraduationCap  />
         </a>
       </Block>
     </>
