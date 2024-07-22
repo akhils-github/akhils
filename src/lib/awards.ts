@@ -1,19 +1,30 @@
 export const awards = [
     {
         id: 1,
-        path: "/awards/ux-award.pdf",
-        date: "Nov 2023",
-        award: "Google UX Design",
+        path: "/awards/cybersecurity.png",
+        date: "July 2024",
+        award: "Software Engineer Diploma BrainStation",
         skills: [
-            "Developed personas, user stories, and user journey maps.",
-            "Conduct usability studies.",
-            "Create wireframes and prototypes in Figma",
-            "Test and iterate on designs.",
-            "Build a professional portfolio",
+            "Gain comprehensive understanding of computers, TCP/IP protocols, and network security inlcuding describing different type of network attacks, methos of detecting them, as well mitigating them.",
+            "Use Python of tasks such as network analysis, penetration testing, vulnerability scanning, and creating custom scripts for automating security tasks.",
+            "Solidified my foundation of cybersecurity domain and concepts needed such as Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Control Concepts, Network Security, and Security Operations.",
+            "Explored fundamentals of cloud computing using AWS. We cover key areas such as cloud concepts, security, and compliance, technology, billing, and pricing."
         ]
     },
     {
         id: 2,
+        path: "/awards/cybersecurity.png",
+        date: "June 2024",
+        award: "Cybersecurity Diploma Digital Nova Scotia",
+        skills: [
+            "Gain comprehensive understanding of computers, TCP/IP protocols, and network security inlcuding describing different type of network attacks, methos of detecting them, as well mitigating them.",
+            "Use Python of tasks such as network analysis, penetration testing, vulnerability scanning, and creating custom scripts for automating security tasks.",
+            "Solidified my foundation of cybersecurity domain and concepts needed such as Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Control Concepts, Network Security, and Security Operations.",
+            "Explored fundamentals of cloud computing using AWS. We cover key areas such as cloud concepts, security, and compliance, technology, billing, and pricing."
+        ]
+    },
+    {
+        id: 3,
         path: "/awards/github-award.pdf",
         date: "April 2024",
         award: "Career Essentials in Github Professional",
@@ -25,7 +36,7 @@ export const awards = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         path: "/awards/docker-award.pdf",
         date: "April 2024",
         award: "Docker Foundations Professional",
@@ -35,15 +46,16 @@ export const awards = [
         ]
     },
     {
-        id: 4,
-        path: "/awards/cybersecurity.png",
-        date: "Jun 2024",
-        award: "Cybersecurity - Digital Nova Scotia",
+        id: 5,
+        path: "/awards/ux-award.pdf",
+        date: "Nov 2023",
+        award: "Google UX Design",
         skills: [
-            "Gain comprehensive understanding of computers, TCP/IP protocols, and network security inlcuding describing different type of network attacks, methos of detecting them, as well mitigating them.",
-            "Use Python of tasks such as network analysis, penetration testing, vulnerability scanning, and creating custom scripts for automating security tasks.",
-            "Solidified my foundation of cybersecurity domain and concepts needed such as Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Control Concepts, Network Security, and Security Operations.",
-            "Explored fundamentals of cloud computing using AWS. We cover key areas such as cloud concepts, security, and compliance, technology, billing, and pricing."
+            "Developed personas, user stories, and user journey maps.",
+            "Conduct usability studies.",
+            "Create wireframes and prototypes in Figma",
+            "Test and iterate on designs.",
+            "Build a professional portfolio",
         ]
-    }
+    },
 ]

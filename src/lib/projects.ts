@@ -167,10 +167,10 @@ export const projects = [
         shortDescription: "real-time document management system powered by AI.",
         longDescription: "A real-time management system powered by AI, empowering students for efficient document management and accelerating success.",
         problems: [
-            "Document management for students is often time- consuming and inefficient.",
+            "Document management for students is often time consuming and inefficient.",
             "Lack of real - time insights and analysis for academic documents.",
             "Difficulty in managing and accessing large volumes of documents.",
-            "Traditional document management systems lack AI - driven features.",
+            "Traditional document management systems lack AI driven features.",
             "Limited tools for interactive and collaborative document review.",
         ],
         features: [
@@ -266,7 +266,7 @@ export const projects = [
             },
             {
                 title: "Engaging Post Creation Tools:",
-                description: "Implemented tools that allow users to create engaging posts with text, photos, and captions, bringing pets' adventures and personalities to life."
+                description: "Implemented tools that allow users to create engaging posts with text, photos, and captions, bringing pets adventures and personalities to life."
             },
             {
                 title: "User-Friendly Interface:",
