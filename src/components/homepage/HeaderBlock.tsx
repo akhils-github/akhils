@@ -22,8 +22,8 @@ export const HeaderBlock = () => {
       </h1>
       <nav className="flex items-center justify-between">
         <a
-          href="/about-me"
-          className="group flex items-center gap-1 text-white hover:underline"
+          href="/about"
+          className="group flex items-center gap-1 text-zinc-50 hover:underline"
         >
           About me{" "}
           <FiArrowRight className="group-hover:translate-x-2 transition-all duration-200" />

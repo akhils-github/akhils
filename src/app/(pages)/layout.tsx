@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 export default function LayoutPage ({ children }: { children: React.ReactNode }) {
 
     return (
-        <main className="min-h-screen flex flex-col items-center justify-center bg-zinc-900 px-4 py-12 text-zinc-50">
+        <main className="min-h-screen flex flex-col items-center justify-center bg-zinc-900 px-4 py-8 text-zinc-50">
           <Link href="/">
             <Image
               width={20}

@@ -1,11 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion"
-import { HeaderBlock } from "./HeaderBlock"
-import { SocialsBlock } from "./SocialsBlock"
-import { AboutBlock } from "./AboutBlock"
-import { LocationBlock } from "./LocationBlock"
-import { EmailListBlock } from "./EmailListBlock"
+import { motion } from "framer-motion";
+import { AboutBlock } from "./AboutBlock";
+import { HeaderBlock } from "./HeaderBlock";
+import { SocialsBlock } from "./SocialsBlock";
 
 export const Homepage = () => {
     return (
@@ -20,8 +18,6 @@ export const Homepage = () => {
             <HeaderBlock />
             <SocialsBlock />
             <AboutBlock />
-            <LocationBlock />
-            <EmailListBlock />
         </motion.div>
     )
 }
