@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Footer } from "@/components/Footer";
-import { ChatButton } from "@/components/ChatButton";
-
+import { ChatButton } from "@/components/chat/ChatButton";
+import { ChatModal } from "@/components/chat/ChatModal";
 export default function LayoutPage ({ children }: { children: React.ReactNode }) {
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -22,7 +22,13 @@ export default function LayoutPage ({ children }: { children: React.ReactNode })
             />
           </Link>
           {children}
-          <ChatButton />
+          <ChatButton setIsOpen={setIsOpen} />
+          {isOpen && (
+            <ChatModal 
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+            />
+          )}
           <Footer />
         </main>
     )
