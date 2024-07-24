@@ -4,7 +4,7 @@ export function constructMetadata({
     title = "Chris Alonzo",
     description = "Sales Representative Turned Code Maestro",
     image = "/thumbnail.png",
-    icons = "/svg/logo.svg",
+    icons = "/logo.svg",
     noIndex = false
   }: {
     title?: string
