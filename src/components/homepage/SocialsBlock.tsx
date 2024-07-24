@@ -17,7 +17,7 @@ export const SocialsBlock = () => {
           href="https://www.linkedin.com/in/lonzochris"
           rel="noopener noreferrer"
           target="_blank"
-          className="grid h-full place-content-center text-3xl text-white"
+          className="grid h-full place-content-center text-4xl text-white"
         >
           <SiLinkedin />
         </a>
@@ -33,7 +33,7 @@ export const SocialsBlock = () => {
           href="https://www.github.com/achris-alonzo30"
           rel="noopener noreferrer"
           target="_blank"
-          className="grid h-full place-content-center text-3xl text-white"
+          className="grid h-full place-content-center text-4xl text-white"
         >
           <SiGithub />
         </a>
@@ -47,7 +47,7 @@ export const SocialsBlock = () => {
       >
         <a
           href="/projects"
-          className="grid h-full place-content-center text-3xl text-white"
+          className="grid h-full place-content-center text-4xl text-white"
         >
           <FiBriefcase />
         </a>
@@ -61,7 +61,7 @@ export const SocialsBlock = () => {
       >
         <a
           href="/awards"
-          className="grid h-full place-content-center text-3xl text-white"
+          className="grid h-full place-content-center text-4xl text-white"
         >
           <FaGraduationCap  />
         </a>

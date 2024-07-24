@@ -1,14 +1,18 @@
 export const awards = [
     {
         id: 1,
-        path: "/awards/cybersecurity.png",
+        path: "/awards/software-engineer.pdf",
         date: "July 2024",
         award: "Software Engineer Diploma BrainStation",
         skills: [
-            "Gain comprehensive understanding of computers, TCP/IP protocols, and network security inlcuding describing different type of network attacks, methos of detecting them, as well mitigating them.",
-            "Use Python of tasks such as network analysis, penetration testing, vulnerability scanning, and creating custom scripts for automating security tasks.",
-            "Solidified my foundation of cybersecurity domain and concepts needed such as Security Principles, Business Continuity (BC), Disaster Recovery (DR) & Incident Response Concepts, Access Control Concepts, Network Security, and Security Operations.",
-            "Explored fundamentals of cloud computing using AWS. We cover key areas such as cloud concepts, security, and compliance, technology, billing, and pricing."
+            "Gain comprehensive understanding Frontend Development, I became proficient in HTML, CSS, and JavaScript to create interactive and dynamic web pages.",
+            "Build complex user interfaces and single-page applications using React.",
+            "Create a robust Backend Development, by creating server-side logic, APIs, and database interactions using Node.js and Express.",
+            "Managed code changes effectively with Git.",
+            "Collaborated efficiently in development teams using Jira and Agile practices.",
+            "Understand deployment processes and cloud-based infrastructure.",
+            "Developed strong analytical and problem-solving skills.",
+            "Structured and managed software development projects."
         ]
     },
     {

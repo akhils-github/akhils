@@ -13,7 +13,7 @@ export const Homepage = () => {
             transition={{
                 staggerChildren: 0.05,
             }}
-            className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4"
+            className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4 py-6"
         >
             <HeaderBlock />
             <SocialsBlock />

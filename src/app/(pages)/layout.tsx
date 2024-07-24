@@ -17,7 +17,7 @@ export default function LayoutPage ({ children }: { children: React.ReactNode })
               quality={100}
               src="/logo.svg"
               priority={true}
-              className="h-14 w-14 text-center mb-4"
+              className="h-14 w-14 text-center mb-10"
               alt="Christopher Alonzo Initials Logo"
             />
           </Link>
