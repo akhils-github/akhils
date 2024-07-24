@@ -40,7 +40,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #262626;
+  background: #27272A;
   border-radius: 3px;
 }
 
@@ -52,5 +52,5 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #10b981 
 }

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { Block } from "./Block";
-import { twMerge } from "tailwind-merge";
+import { Button } from "../Button";
 import { FiArrowRight } from "react-icons/fi";
+
 export const HeaderBlock = () => {
   return (
     <Block className="col-span-12 row-span-2 md:col-span-6">
@@ -11,10 +12,10 @@ export const HeaderBlock = () => {
         quality={100}
         priority={true}
         src="/headshot.jpg"
-        alt="Christopher Alonoz Profile Picture"
+        alt="Christopher Alonzo Profile Picture"
         className="mb-4 size-14 rounded-full"
       />
-      <h1 className="mb-12 text-4xl font-medium leading-tight">
+      <h1 className="mb-3 md:mb-6 lg:mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-tight">
         Hi, I'm Chris Alonzo.{" "}
         <span className="text-zinc-400">
           Sales Representative Turned Code Maestro
@@ -23,33 +24,12 @@ export const HeaderBlock = () => {
       <nav className="flex items-center justify-between">
         <a
           href="/about"
-          className="group flex items-center gap-1 text-zinc-50 hover:underline"
+          className="group flex items-center gap-1 text-sm md:text-base text-zinc-50 hover:underline"
         >
           About me{" "}
           <FiArrowRight className="group-hover:translate-x-2 transition-all duration-200" />
         </a>
-        <button
-          className={twMerge(
-            `relative z-0 flex items-center gap-2 overflow-hidden rounded-md border-[1px] 
-            border-white px-4 py-2 font-medium text-sm
-            text-white transition-all duration-300
-            
-            before:absolute before:inset-0
-            before:-z-10 before:translate-x-[150%]
-            before:translate-y-[150%] before:scale-[2.5]
-            before:rounded-[100%] before:bg-white
-            before:transition-transform before:duration-1000
-            before:content-[""]
-    
-            hover:text-zinc-950
-            hover:before:translate-x-[0%]
-            hover:before:translate-y-[0%]
-            active:scale-95`,
-          )}
-          onClick={() => window.open("/Resume-Alonzo-Christopher.pdf", "_blank")}
-        >
-          Resume
-        </button>
+        <Button />
       </nav>
     </Block>
   );

@@ -2,7 +2,7 @@ import { Block } from "./Block";
 
 export const AboutBlock = () => {
   return (
-    <Block className="col-span-12 text-3xl leading-snug">
+    <Block className="col-span-12 text-lg md:text-xl lg:text-3xl leading-snug">
       <p>
         I build things that solves problems. {" "}
         <span className="text-zinc-400">

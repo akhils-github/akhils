@@ -23,7 +23,7 @@ export const AwardModal = ({
       isOpen={isOpen}
       setIsOpen={setIsOpen}
     >
-      <div className={`relative z-10 mb-2 md:mb-8 ${isPdf ? "h-full w-full" : "h-fit w-fit"}`}>
+      <div className={`relative z-10 mb-2 md:mb-8 mx-auto ${isPdf ? "h-full w-full" : "h-fit w-fit"}`}>
         {isPdf ? (
           <embed
             id="pdf-embed"
@@ -39,7 +39,7 @@ export const AwardModal = ({
             height={500}
             quality={100}
             priority={true}
-            className="object-contain h-full w-full flex mx-auto"
+            className="object-contain h-full w-full"
           />
         )}
       </div>

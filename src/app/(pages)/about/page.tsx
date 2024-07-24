@@ -1,14 +1,31 @@
+"use client";
+
 import Link from "next/link";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import { FiArrowRight, FiGithub, FiLinkedin } from "react-icons/fi";
 
 import { Reveal } from "@/components/Reveal";
 import { TechStacks } from "./_components/TechStacks";
+import { Testimonials } from "./_components/Testimonials";
 import { SectionHeader } from "./_components/SectionHeader";
 
+
 export default function AboutPage() {
+    const ref= useRef(null);
+
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["0 1", "1.33 1"]
+    });
+
+    const scale = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+    const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+
+    
     return (
-        <main className=" mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
+        <main className=" mx-auto max-w-5xl px-4 md:px-8 space-y-12 pb-24">
             <section className="section-wrapper mx-auto">
                 <SectionHeader title="AboutMe" dir="l" />
                 <article className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
@@ -83,6 +100,9 @@ export default function AboutPage() {
                     <TechStacks />
                 </article>
             </section>
+            <motion.div ref={ref} style={{ scale, opacity }}>
+            <Testimonials />
+            </motion.div>
         </main>
     )
 }
