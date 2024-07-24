@@ -29,7 +29,7 @@ export function constructMetadata({
         creator: "@chrislonzo"
       },
       icons,
-      metadataBase: new URL(''),
+      metadataBase: new URL('https://www.chrislonzo.com'),
       ...(noIndex && {
         robots: {
           index: false,
