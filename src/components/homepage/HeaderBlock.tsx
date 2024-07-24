@@ -16,7 +16,7 @@ export const HeaderBlock = () => {
         className="mb-4 size-14 rounded-full"
       />
       <h1 className="mb-3 md:mb-6 lg:mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-tight">
-        Hi, I'm Chris Alonzo.{" "}
+        Hi, I&apos;m Chris Alonzo.{" "}
         <span className="text-zinc-400">
           Sales Representative Turned Code Maestro
         </span>

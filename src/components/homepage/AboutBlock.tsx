@@ -6,7 +6,7 @@ export const AboutBlock = () => {
       <p>
         I build things that solves problems. {" "}
         <span className="text-zinc-400">
-          I'm a full stack developer and entrepreneur who's passionate about creating solutions. 
+          I&apos;m a full stack developer and entrepreneur who&apos;s passionate about creating solutions. 
           Proficient in both front-end and back-end that brings creative ideas to code. 
         </span>
       </p>
