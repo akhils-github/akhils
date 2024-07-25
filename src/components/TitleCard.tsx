@@ -7,7 +7,6 @@ export const TitleCard = ({ title }: { title: string }) => {
                     {title}
                 </span>
             </h2>
-            <FiArrowUpRight className="absolute right-3 top-4 text-2xl text-neutral-400 transition-colors duration-500 group-hover:text-emerald-300" />
         </div>
     )
 }
