@@ -16,23 +16,14 @@ export const AwardModal = ({
   isOpen,
   setIsOpen
 }: AwardModalProps) => {
-  const isPdf = path.includes(".pdf");
 
   return (
     <Modal 
       isOpen={isOpen}
       setIsOpen={setIsOpen}
     >
-      <div className={`relative z-10 mb-2 md:mb-8 mx-auto ${isPdf ? "h-full w-full" : "h-fit w-fit"}`}>
-        {isPdf ? (
-          <embed
-            id="pdf-embed"
-            src={path}
-            type="application/pdf"
-            className="object-cover h-full w-full"
-          />
-        ) : (
-          <Image
+      <div className="relative z-10 mb-2 md:mb-8 mx-auto h-fit w-fit">
+        <Image
             src={path}
             alt="award"
             width={500}
@@ -41,7 +32,6 @@ export const AwardModal = ({
             priority={true}
             className="object-contain h-full w-full"
           />
-        )}
       </div>
       <h1 className="text-2xl md:text-4xl font-bold text-zinc-50 py-4">
         What I learned?

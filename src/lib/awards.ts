@@ -1,7 +1,7 @@
 export const awards = [
     {
         id: 1,
-        path: "/awards/software-engineer.pdf",
+        path: "/awards/brainstation.png",
         date: "July 2024",
         award: "Software Engineer Diploma BrainStation",
         skills: [
@@ -29,7 +29,7 @@ export const awards = [
     },
     {
         id: 3,
-        path: "/awards/github-award.pdf",
+        path: "/awards/github.png",
         date: "April 2024",
         award: "Career Essentials in Github Professional",
         skills: [
@@ -41,7 +41,7 @@ export const awards = [
     },
     {
         id: 4,
-        path: "/awards/docker-award.pdf",
+        path: "/awards/docker.png",
         date: "April 2024",
         award: "Docker Foundations Professional",
         skills: [
@@ -51,7 +51,7 @@ export const awards = [
     },
     {
         id: 5,
-        path: "/awards/ux-award.pdf",
+        path: "/awards/google-ux.png",
         date: "Nov 2023",
         award: "Google UX Design",
         skills: [
