@@ -43,7 +43,6 @@ export const ProjectDrawerContent = ({
     >
       <aside className="h-full w-full border-2 border-zinc-500 rounded-lg">
         <video
-          autoPlay
           loop
           muted
           controls
