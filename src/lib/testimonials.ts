@@ -61,5 +61,16 @@ Any employer would be incredibly fortunate to have Christopher on their team. Hi
 I had the pleasure of collaborating with Christopher on our industry project, where he consistently demonstrated his exceptional teamwork and leadership skills. His contributions were invaluable, and he played a pivotal role in our project's success.
 
 His solo projects are consistently visually stunning and showcase his exceptional talent. I am confident that Christopher will excel in any role he pursues.`
+    }, 
+    {
+        src: "/testimonials/samreen.jpeg",
+        name: "Samreen Aziz",
+        link: "https://www.linkedin.com/in/samreen-aziz",
+        title: "Software Engineering | Natural Resources, Healthcare, Banking, Education | ex-IBM",
+        testimonial: `I have been fortunate to have met and worked with Chris during our time in BrainStation's Software Engineering program. I remember seeing him in our first week in the program offering support to every student in our Slack channel and proposing solutions to many HTML/CSS questions in the beginning of the program. I messaged him saying 'Hey Chris, you’re the CSS wizard I’ve heard of, I come to you with major questions' and he was humble from the get go and stayed up for hours working through problems with me (even though he may have had tasks of his own or sleep to get to, it was never something he mentioned) - this speaks to Chris' willingness to go out of his way to support a team member in achieving excellence. 
+
+I know Chris to be an extremely talented software developer with extreme attention to detail and organization of code. I know him to be an empathetic, hardworking, and dedicated team member with the impressive ability to adapt to new personalities and accept feedback thoughtfully. 
+
+Any employer would be incredibly lucky to have Chris on their development team; he is sure to make an impact from day one on the job.`
     }
 ]

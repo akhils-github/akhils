@@ -23,18 +23,18 @@ export default function LayoutPage({ children }: { children: React.ReactNode }) 
             <span className="-translate-x-40 text-sm  group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition duration-500 text-zinc-50 z-20" >
               Home
             </span>
-            <FiArrowLeft className="group-hover:translate-x-40 px-2 py-1 text-4xl font-black text-center transition duration-500 whitespace-nowrap"/> 
+            <FiArrowLeft className="group-hover:translate-x-40  text-3xl font-black text-center transition duration-500 whitespace-nowrap"/> 
           </NavigateButton>
         )}
         <Logo />
         {!isHome && (
           <NavigateButton 
-            href={pathname === "/projects" ? "/about" : "/projects"}
+            href={pathname === "/projects" ? "/awards" : "/projects"}
           >
             <span className="-translate-x-40  text-sm group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition duration-500 text-zinc-50 z-20" >
-              {pathname === "/projects" ? "About" : "Projects"}
+              {pathname === "/projects" ? "Awards" : "Projects"}
             </span>
-            <FiArrowRight className="group-hover:translate-x-40 px-2 py-1 text-4xl font-black text-center transition duration-500 whitespace-nowrap"/> 
+            <FiArrowRight className="group-hover:translate-x-40  text-3xl font-black text-center transition duration-500 whitespace-nowrap"/> 
           </NavigateButton>
         )}
       </header>
