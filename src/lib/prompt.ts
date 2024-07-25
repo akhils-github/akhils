@@ -61,7 +61,7 @@ When responding, ensure that the output is in plain text without any special for
 export const questions = [
     "What is Chris recent project and its role in it?",
     "What are his key strengths and how have he applied them in his work?",
-    "How does he stay updated with the latest industry trends and technologies?",
+    "What unique skills does Chris bring to a team setting?",
     "Can you describe a challenging problem he faced in a project and how he solved it?"
 ]
 

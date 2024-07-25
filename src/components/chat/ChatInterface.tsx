@@ -49,7 +49,7 @@ export const ChatInterface = ({
         setHistory((prev) => [...prev,
         {
             role: "user",
-            parts: prompt,
+            parts: promptText,
         },
         {
             role: "model",
@@ -124,6 +124,7 @@ export const ChatInterface = ({
                             </div>
                         </aside>
                     )}
+
 
                     {history.length > 1 && history.map((h, i) => (
                         <aside

@@ -16,11 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="twitter:image" content="<generated>" />
-      <meta name="twitter:image:type" content="<generated>" />
-      <meta name="twitter:image:width" content="<generated>" />
-      <meta name="twitter:image:height" content="<generated>" />
-      <meta property="og:image:alt" content="Christopher Alonzo Thumbnail" />
       <body className={`${font.className} antialiased`}>
         {children}
       </body>
