@@ -10,7 +10,6 @@ export const TestimonialCard = ({
     src,
     title,
     name,
-    link,
     testimonial,
     position,
     selected,
@@ -59,13 +58,9 @@ export const TestimonialCard = ({
                 Read more...
             </Link>
             <div>
-                <Link 
-                    href={link} 
-                    target="_blank" 
-                    className="block font-semibold text-sm lg:text-lg hover:text-emerald-500 transition-all"
-                >
-                        {name}
-                </Link>
+                <span className="block font-semibold text-sm lg:text-lg hover:text-emerald-500 transition-all">
+                    {name}
+                </span>
                 <span className="block text-xs lg:text-sm">{title}</span>
             </div>
         </motion.div>
