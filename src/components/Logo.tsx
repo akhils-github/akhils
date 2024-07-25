@@ -10,7 +10,7 @@ export const Logo = () => {
                 quality={100}
                 src="/logo.svg"
                 priority={true}
-                className="h-14 w-14 text-center mb-10"
+                className="h-14 w-14 text-center"
                 alt="Christopher Alonzo Initials Logo"
             />
         </Link>
