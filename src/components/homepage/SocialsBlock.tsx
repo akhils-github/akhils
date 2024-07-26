@@ -12,7 +12,7 @@ export const SocialsBlock = () => {
           rotate: "2.5deg",
           scale: 1.1,
         }}
-        className="col-span-6 bg-blue-500 md:col-span-3"
+        className="group col-span-6  bg-blue-500 md:col-span-3"
       >
         <Link
           href="https://www.linkedin.com/in/lonzochris"
@@ -22,13 +22,17 @@ export const SocialsBlock = () => {
         >
           <SiLinkedin />
         </Link>
+        <span 
+          className="-mt-10 hidden group-hover:block transition-all duration-400 ease-in-out text-center text-sm text-zinc-50 font-semibold leading-tight">
+            LinkedIn
+        </span>
       </Block>
       <Block
         whileHover={{
           rotate: "-2.5deg",
           scale: 1.1,
         }}
-        className="col-span-6 bg-neutral-800 md:col-span-3"
+        className="group  col-span-6 bg-neutral-800 md:col-span-3"
       >
         <Link
           href="https://www.github.com/achris-alonzo30"
@@ -38,13 +42,14 @@ export const SocialsBlock = () => {
         >
           <SiGithub />
         </Link>
+        <span className="-mt-10 hidden  group-hover:block transition-all duration-400 ease-in-out  text-center text-sm text-zinc-50 font-semibold leading-tight">Github</span>
       </Block>
       <Block
         whileHover={{
           rotate: "-2.5deg",
           scale: 1.1,
         }}
-        className="col-span-6 bg-emerald-500 md:col-span-3"
+        className="group col-span-6 bg-emerald-500 md:col-span-3"
       >
         <Link
           href="/projects"
@@ -52,13 +57,14 @@ export const SocialsBlock = () => {
         >
           <FiBriefcase />
         </Link>
+        <span className="-mt-11 hidden text-center group-hover:block transition-all duration-400 ease-in-out  text-sm text-zinc-50 font-semibold leading-tight">Projects</span>
       </Block>
       <Block
         whileHover={{
           rotate: "2.5deg",
           scale: 1.1,
         }}
-        className="col-span-6 bg-rose-500 md:col-span-3"
+        className="group col-span-6 bg-rose-500 md:col-span-3"
       >
         <Link
           href="/awards"
@@ -66,6 +72,7 @@ export const SocialsBlock = () => {
         >
           <FaGraduationCap  />
         </Link>
+        <span className="-mt-12 text-center hidden group-hover:block transition-all duration-400 ease-in-out  text-sm text-zinc-50 font-semibold leading-tight">Education</span>
       </Block>
     </>
   );

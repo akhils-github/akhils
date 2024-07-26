@@ -17,13 +17,13 @@ export default function LayoutPage({ children }: { children: React.ReactNode }) 
 
   return (
     <main className="min-h-screen relative flex flex-col items-center justify-center bg-zinc-900 px-4 py-8 text-zinc-50">
-      <header className={`flex items-center w-full mb-10 ${isHome ? "justify-center" : "justify-between"}`}>
+      <header className={`flex items-center w-full mb-10 ${isHome ? "justify-center" : "justify-between"} overflow-hidden`}>
         {!isHome && (
           <NavigateButton href="/">
-            <span className="-translate-x-40 text-sm  group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition duration-500 text-zinc-50 z-20" >
+            <span className="-translate-x-40 text-sm  group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition-all duration-500 text-zinc-50 z-20" >
               Home
             </span>
-            <FiArrowLeft className="group-hover:translate-x-40  text-3xl font-black text-center transition duration-500 whitespace-nowrap"/> 
+            <FiArrowLeft className="group-hover:translate-x-40 mx-auto text-3xl font-black text-center transition duration-500 whitespace-nowrap"/> 
           </NavigateButton>
         )}
         <Logo />
@@ -32,9 +32,9 @@ export default function LayoutPage({ children }: { children: React.ReactNode }) 
             href={pathname === "/projects" ? "/awards" : "/projects"}
           >
             <span className="-translate-x-40  text-sm group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition duration-500 text-zinc-50 z-20" >
-              {pathname === "/projects" ? "Awards" : "Projects"}
+              {pathname === "/projects" ? "Education" : "Projects"}
             </span>
-            <FiArrowRight className="group-hover:translate-x-40  text-3xl font-black text-center transition duration-500 whitespace-nowrap"/> 
+            <FiArrowRight className={`group-hover:translate-x-40 ${pathname === "/projects" ? "mx-3" : "mx-2"} text-3xl font-black text-center transition-all duration-500 whitespace-nowrap`}/> 
           </NavigateButton>
         )}
       </header>

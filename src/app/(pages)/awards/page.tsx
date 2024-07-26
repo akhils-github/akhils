@@ -7,7 +7,7 @@ export default function AwardsPage() {
     return (
         <section className="bg-zinc-800 p-4 text-zinc-50 md:p-12">
             <article className="mx-auto grid max-w-5xl grid-cols-1 divide-zinc-700 border border-zinc-700 md:grid-cols-3">
-                <TitleCard title="Awards" />
+                <TitleCard title="Education & Education" />
                 {awards.map((a) => (
                     <AwardCard
                         {...a}
