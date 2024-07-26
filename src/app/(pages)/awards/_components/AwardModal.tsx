@@ -38,7 +38,7 @@ export const AwardModal = ({
       </h1>
       <ul className="ml-4 flex flex-col space-y-1">
         {skills.map((s, i) => (
-          <li key={i} className="text-sm text-zinc-200 list-disc">
+          <li key={i} className="text-zinc-300 tracking-tight text-base text-justify list-disc">
             {s}
           </li>
         ))}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FiGithub, FiGlobe } from "react-icons/fi";
+import { FiGithub, FiGlobe, FiWifiOff } from "react-icons/fi";
 import { AnimatedTooltip } from "@/components/AnimatedTooltip";
 
 interface ProjectDrawerContentProps {
@@ -59,9 +59,13 @@ export const ProjectDrawerContent = ({
               <Link href={githubUrl} target="_blank">
                 <FiGithub className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
               </Link>
-              <Link href={websiteUrl} target="_blank">
+              {websiteUrl.length > 0 ? (
+                <Link href={websiteUrl} target="_blank">
                 <FiGlobe className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
               </Link>
+              ) : (
+                <FiWifiOff className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
+              )}
             </nav>
           </header>
           <main className="flex flex-col gap-8 py-4">

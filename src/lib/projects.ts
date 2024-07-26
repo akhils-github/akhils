@@ -1,10 +1,11 @@
+
 export const projects = [
     {
         id: 1,
         project: "Hireme",
         date: "Jul 2024",
         videoUrl: "/videos/hireme.mp4",
-        websiteUrl: "https://hireme-silk.vercel.app/",
+        websiteUrl: "",
         githubUrl: "https://github.com/achris-alonzo30/hireme",
         shortDescription: "simplifies job search process.",
         longDescription: "Simplifies and enhances the job application process for job seekers. It lets you create strong resumes and cover letters that stand out. Plus, you can keep track of your job applications with the job tracker. You can connect with other job seekers and experts for advice and support.",
@@ -85,7 +86,7 @@ export const projects = [
         project: "InStock",
         date: "Jun 2024",
         videoUrl: "/videos/instock.mov",
-        websiteUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        websiteUrl: "",
         githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
         shortDescription: "collaborative project management.",
         longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",

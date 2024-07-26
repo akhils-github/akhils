@@ -47,7 +47,7 @@ export const TestimonialCard = ({
             className="absolute top-0 left-0 w-full min-h-full p-8  flex flex-col justify-between"
         >
             <Image src={src} alt={name} width={100} height={100} className="rounded-full object-cover mx-auto" />
-            <p className="text-base lg:text-xl font-light italic my-8 leading-tight text-pretty line-clamp-6">
+            <p className="text-base lg:text-lg font-light italic my-8 leading-tight text-pretty line-clamp-6">
                 {testimonial}
             </p>
             <Link 
@@ -58,7 +58,7 @@ export const TestimonialCard = ({
                 Read more...
             </Link>
             <div>
-                <span className="block font-semibold text-sm lg:text-lg hover:text-emerald-500 transition-all">
+                <span className="block font-semibold text-sm lg:text-lg">
                     {name}
                 </span>
                 <span className="block text-xs lg:text-sm">{title}</span>

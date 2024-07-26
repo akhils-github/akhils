@@ -101,7 +101,7 @@ export default function AboutPage() {
                 </article>
             </section>
             <motion.div ref={ref} style={{ scale, opacity }}>
-            <Testimonials />
+                <Testimonials />
             </motion.div>
         </main>
     )

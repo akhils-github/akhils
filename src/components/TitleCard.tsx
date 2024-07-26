@@ -1,4 +1,4 @@
-import { FiArrowUpRight } from "react-icons/fi"
+
 export const TitleCard = ({ title }: { title: string }) => {
     return (
         <div className="group relative flex h-full w-full flex-col justify-between bg-zinc-950 p-6 md:h-80 md:p-9">
