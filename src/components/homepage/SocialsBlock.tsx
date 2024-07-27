@@ -20,12 +20,9 @@ export const SocialsBlock = () => {
           href="https://www.linkedin.com/in/lonzochris"
           rel="noopener noreferrer"
           target="_blank"
-          className="relative h-full flex flex-col gap-2 items-center justify-center text-white overflow-hidden transition-all"
+          className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
-          <SiLinkedin className="group-hover:translate-x-40 mx-auto text-2xl md:text-4xl font-black text-center transition duration-500 whitespace-nowrap"/>
-          <span className="-translate-x-60 text-sm md:text-xl font-semibold group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition-all duration-500 text-zinc-50 z-20" >
-              LinkedIn
-          </span>
+          <SiLinkedin className="text-2xl md:text-4xl"/>
         </Link>
       </Block>
       <Block
@@ -39,12 +36,9 @@ export const SocialsBlock = () => {
           href="https://www.github.com/achris-alonzo30"
           rel="noopener noreferrer"
           target="_blank"
-          className="relative h-full flex flex-col gap-2 items-center justify-center text-white overflow-hidden transition-all"
+          className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
-          <SiGithub className="group-hover:translate-x-40 mx-auto text-2xl md:text-4xl font-black text-center transition duration-500 whitespace-nowrap"/>
-          <span className="-translate-x-60 text-sm md:text-xl font-semibold group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition-all duration-500 text-zinc-50 z-20" >
-              Github
-          </span>
+          <SiGithub className="text-2xl md:text-4xl"/>
         </Link>
         
       </Block>
@@ -57,12 +51,9 @@ export const SocialsBlock = () => {
       >
         <Link
           href="/projects"
-          className="mt-0 h-full flex flex-col gap-2 items-center justify-center text-white overflow-hidden transition-all"
+          className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
-          <FiBriefcase className="group-hover:translate-x-40 mx-auto text-2xl md:text-4xl font-black text-center transition duration-500 whitespace-nowrap"/>
-          <span className="-translate-x-60 text-sm md:text-xl font-semibold group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition-all duration-500 text-zinc-50 z-20" >
-              Projects
-          </span>
+          <FiBriefcase className="text-2xl md:text-4xl"/>
         </Link>
         
       </Block>
@@ -75,14 +66,10 @@ export const SocialsBlock = () => {
       >
         <Link
           href="/awards"
-          className="h-full flex flex-col gap-2 items-center justify-center text-white overflow-hidden transition-all"
+          className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
-          <FaGraduationCap className="group-hover:translate-x-40 mx-auto text-2xl md:text-4xl font-black text-center transition duration-500 whitespace-nowrap" />
-          <span className="-translate-x-60 text-sm md:text-xl font-semibold group-hover:translate-x-0 flex items-center justify-center absolute inset-2 transition-all duration-500 text-zinc-50 z-20" >
-              Education
-          </span>
+          <FaGraduationCap className="text-2xl md:text-4xl" />
         </Link>
-        
       </Block>
     </>
   );
