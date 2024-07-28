@@ -48,5 +48,11 @@ export const testimonials: Testimonial[] = [
         title: "Software Engineering | Natural Resources, Healthcare, Banking, Education | ex-IBM",
         testimonial: `Chris demonstrated exceptional technical skills and a remarkable willingness to support his peers throughout our Software Engineering program at BrainStation. 
         His attention to detail, empathy, adaptability, and dedication make him an invaluable team member who consistently goes above and beyond to help others achieve excellence.`
+    }, 
+    {
+        src: "/testimonials/denise.jpeg",
+        name: "Denise Deng, MSW, RSW",
+        title: "Social Worker | Software Developer",
+        testimonial: `Christopher's exceptional knowledge, helpful nature, and enthusiasm for learning make him an invaluable asset. His impressive expertise and supportive approach consistently help peers overcome challenges and foster a collaborative environment. His active curiosity and eagerness to learn new skills drive continuous improvement, making him a dedicated and approachable team member.`
     }
 ]
