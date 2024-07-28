@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.15.0",
+    "@next/third-parties": "^14.2.5",
     "@upstash/ratelimit": "^2.0.1",
     "@vercel/kv": "^2.0.0",
     "framer-motion": "^11.3.8",

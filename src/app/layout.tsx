@@ -1,7 +1,7 @@
 import { constructMetadata } from "@/lib/metadata";
 import "./globals.css";
 
-import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Poppins } from "next/font/google";
 
 
@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className={`${font.className} antialiased`}>
         {children}
       </body>
+      <GoogleAnalytics gaId="G-YS5KNVNWL4" />
     </html>
   );
 }
