@@ -20,7 +20,7 @@ export const Button = () => {
             hover:before:translate-y-[0%]
             active:scale-95`,
           )}
-          onClick={() => window.open("/Resume_Alonzo_Christopher.pdf", "_blank")}
+          onClick={() => window.open("/Resume_Christopher_Alonzo.pdf", "_blank")}
         >
           Resume
         </button>

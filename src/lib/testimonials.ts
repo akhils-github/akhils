@@ -54,5 +54,11 @@ export const testimonials: Testimonial[] = [
         name: "Denise Deng, MSW, RSW",
         title: "Social Worker | Software Developer",
         testimonial: `Christopher's exceptional knowledge, helpful nature, and enthusiasm for learning make him an invaluable asset. His impressive expertise and supportive approach consistently help peers overcome challenges and foster a collaborative environment. His active curiosity and eagerness to learn new skills drive continuous improvement, making him a dedicated and approachable team member.`
+    },
+    {
+        src: "/testimonials/farheen.jpeg",
+        name: "Farheen Syed",
+        title: "Full Stack Software Engineer | React JS, Node JS, PHP, Python, MySQL, MongoDB | Health Technology Coder | Lifelong Learner",
+        testimonial: `Chris's exceptional software engineering skills and professionalism were crucial during our recent hackathon, where we built a children's educational app in 24 hours. His ability to swiftly understand and solve complex problems, coupled with his collaborative spirit, made him an invaluable team player. I look forward to working with him again.`
     }
 ]
