@@ -1,11 +1,10 @@
-import { constructMetadata } from "@/lib/metadata";
 import "./globals.css";
+import { constructMetadata } from "@/lib/metadata";
 
+import { Syne } from 'next/font/google'
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { Poppins } from "next/font/google";
 
-
-const font = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] });
+const font = Syne({ weight: ['400', '500', '600', '700', '800'], subsets: ['latin'] });
 
 export const metadata = constructMetadata();
 
