@@ -17,6 +17,8 @@ export const SocialsBlock = () => {
         className="group overflow-hidden col-span-6 bg-blue-500 md:col-span-3"
       >
         <Link
+          id="LinkedIn Profile"
+          aria-label="LinkedIn Profile"
           href="https://www.linkedin.com/in/lonzochris"
           rel="noopener noreferrer"
           target="_blank"
@@ -33,6 +35,8 @@ export const SocialsBlock = () => {
         className="group overflow-hidden col-span-6 bg-neutral-800 md:col-span-3"
       >
         <Link
+          id="Github Profile"
+          aria-label="Github Profile"
           href="https://www.github.com/achris-alonzo30"
           rel="noopener noreferrer"
           target="_blank"
@@ -50,6 +54,8 @@ export const SocialsBlock = () => {
         className="group overflow-hidden col-span-6 bg-emerald-500 md:col-span-3"
       >
         <Link
+          id="Projects"
+          aria-label="Projects"
           href="/projects"
           className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
@@ -65,6 +71,8 @@ export const SocialsBlock = () => {
         className="group overflow-hidden col-span-6 bg-rose-500 md:col-span-3"
       >
         <Link
+          id="Awards & Education"
+          aria-label="Awards & Education"
           href="/awards"
           className="h-full grid place-items-center text-white overflow-hidden transition-all"
         >
