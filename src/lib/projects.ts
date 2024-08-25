@@ -5,7 +5,7 @@ export const projects = [
         project: "Hireme",
         date: "Jul 2024",
         videoUrl: "/videos/hireme.mp4",
-        websiteUrl: "",
+        websiteUrl: "https://hireme-nine.vercel.app",
         githubUrl: "https://github.com/achris-alonzo30/hireme",
         shortDescription: "simplifies job search process.",
         longDescription: "Simplifies and enhances the job application process for job seekers. It lets you create strong resumes and cover letters that stand out. Plus, you can keep track of your job applications with the job tracker. You can connect with other job seekers and experts for advice and support.",
