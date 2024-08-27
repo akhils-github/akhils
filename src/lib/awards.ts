@@ -51,7 +51,7 @@ export const awards = [
     },
     {
         id: 5,
-        path: "/awards/google-analytics.png",
+        path: "/awards/google_analytics.png",
         date: "Mar 2024",
         award: "Google Analytics",
         skills: [
