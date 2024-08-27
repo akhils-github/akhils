@@ -51,6 +51,17 @@ export const awards = [
     },
     {
         id: 5,
+        path: "/awards/google-analytics.png",
+        date: "Mar 2024",
+        award: "Google Analytics",
+        skills: [
+            "Setup a Google Analytics 4 property for a website or an app.",
+            "Collect the data you need for your business and use the various reporting tools and features.",
+            "Recognize key measurement features that can show the effectiveness of your online marketing efforts.",
+        ]
+    },
+    {
+        id: 6,
         path: "/awards/google-ux.png",
         date: "Nov 2023",
         award: "Google UX Design",
