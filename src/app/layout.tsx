@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.className} antialiased`}>
+{/*       <body className={`${font.className} antialiased`}> */}
 
      <body class="bg-gray-100 dark:bg-gray-800">
   <div class="min-h-screen flex flex-col justify-center items-center">
@@ -29,7 +29,7 @@ export default function RootLayout({
   </div>
 </body>
 {/*         {children} */}
-      </body>
+{/*       </body> */}
       <GoogleAnalytics gaId="G-YS5KNVNWL4" />
     </html>
   );
