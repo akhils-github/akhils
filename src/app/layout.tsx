@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-{/*       <body className={`${font.className} antialiased`}> */}
+      <body className={`${font.className} antialiased`}>
 
-     <body className="bg-gray-100 dark:bg-gray-800">
+{/*      <body className="bg-gray-100 dark:bg-gray-800"> */}
   <div className="min-h-screen flex flex-col justify-center items-center">
     <img src="https://www.svgrepo.com/show/426192/cogs-settings.svg" alt="Logo" className="mb-8 h-40"/>
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-700 dark:text-white mb-4">Site is under maintenance</h1>
